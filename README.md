@@ -8,6 +8,7 @@ The program is a paid one and it requires for subscribers to publish a review.
 
 We want to determine if having a paid Vine review makes a difference in the percentage of 5-star reviews.
 
+The process consists of:
 * Chosing a dataset from AWS services
 
 An account is opened to use AWS data and cloud services. An AWS RDS instance is set up to load data using PostgreSQL.
@@ -48,7 +49,7 @@ Data is loaded from Colab
 
 Using PySpark a Dataframe is created and filtered with a count of 20 or more votes (helpful_votes) and filtered again to show the ratio where helpful_votes to total_votes is equal or greater than 50%.
 
-Results (please refer to images folder):
+* RESULTS (please refer to images folder):
 
 * How many Vine reviews and non-Vine reviews were there?
 There were 647 Vine reviews (Paid Reviews)
@@ -72,4 +73,4 @@ Summary:
 
 In the study, 58% of 5 star reviews came from unpaid suscribers whereas a lower 35% of 5 staar reviews originated from paid subscribers. Clearly, there is no bias in the Amazon Vine program. 
 
-Also, the number of 
+
